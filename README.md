@@ -100,6 +100,6 @@ This project was conducted for academic research purposes.
 
 ![Dashboard](Screenshots/Home.png)
 ![Dashboard](Screenshots/Matches.png)
-![Dashboard](Screenshots/Betpage.png)
-![Dashboard](Screenshots/Betoutcome.png)
+![Dashboard](Screenshots/Bet_page.png)
+![Dashboard](Screenshots/Bet_outcome.png)
 ![Dashboard](Screenshots/Coupons.png)
