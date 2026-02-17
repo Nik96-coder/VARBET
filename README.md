@@ -1,62 +1,105 @@
-# VARBET: The Impact of VAR on Football Experience and Betting Behaviour
+# VARBET: Data Analysis of VAR Impact on Fan Experience and Betting Behaviour
 
-## Overview
+##  Project Overview
+
 This project was developed as part of my Master's Dissertation.
-It investigates the impact of Video Assistant Referee (VAR) implementation on:
 
-- Match enjoyment
+The objective was to analyse how the introduction of Video Assistant Referee (VAR) technology affects:
+
+- Fan enjoyment
 - Perceived fairness
-- Game pace
-- Betting behaviour
+- Match flow and pace
+- Betting behaviour trends
 
-The project combines survey data analysis with a demo web-based visualization interface.
-
----
-
-## Research Objectives
-
-- Analyse fan perception of VAR effectiveness
-- Measure perceived impact on game flow
-- Examine correlation between VAR and betting trends
-- Evaluate future acceptance of VAR in football
+The study combines survey data analysis, statistical evaluation, and interactive web-based visualisation.
 
 ---
 
-## Technologies Used
+##  Business Problem
 
-- HTML
-- CSS
-- JavaScript
-- Excel (Survey analysis)
-- Tableau (Data visualisation)
+The introduction of VAR has changed the dynamics of professional football.
 
----
+Stakeholders (clubs, betting companies, broadcasters) need to understand:
 
-## Project Structure
+- Does VAR improve trust in decision-making?
+- Does it reduce enjoyment?
+- Does it influence betting frequency?
+- How do perceptions differ across age groups?
 
-- `/Survey datasets` – Raw and processed survey data
-- `index.html` – Main web demo
-- `script.js` – Interactive logic
-- `styles.css` – Styling
+Understanding this helps drive engagement strategy and monetisation decisions.
 
 ---
 
-## Key Findings
+##  Methodology
 
-- Mixed perception of VAR accuracy
-- Strong correlation between age group and enjoyment levels
-- Concerns regarding match flow disruption
+1. Designed structured survey questionnaire
+2. Collected multi-variable fan perception data
+3. Cleaned and consolidated datasets
+4. Performed:
+   - Descriptive statistics
+   - Cross-variable comparison
+   - Age-group segmentation
+5. Built interactive visual demo using HTML/CSS/JavaScript
 
 ---
 
-## Academic Context
+##  Key Insights
 
-Master's Dissertation  
+- Younger fans show higher tolerance for VAR delays.
+- Perceived fairness improved, but enjoyment slightly decreased.
+- Betting behaviour showed correlation with perceived match control.
+- Transparency and communication strongly affect acceptance.
+
+---
+
+##  Tools & Technologies
+
+- Excel (Data Cleaning & Analysis)
+- Tableau (Data Visualisation)
+- JavaScript (Interactive Demo)
+- HTML/CSS (Frontend)
+- Git & GitHub (Version Control)
+
+---
+
+##  Repository Structure
+
+- `/Survey datasets` → Raw and processed data
+- `index.html` → Web demo interface
+- `script.js` → Interactive logic
+- `styles.css` → Styling
+- `README.md` → Documentation
+
+---
+
+##  Academic Context
+
+Master’s Dissertation  
+Sports Analytics & Data Strategy  
 University of Nottingham  
-Year: 2025  
 
 ---
 
-## Disclaimer
+##  Skills Demonstrated
 
-This is an academic demonstration project created for research purposes.
+- Data Cleaning & Structuring
+- Survey Data Analysis
+- Insight Generation
+- Stakeholder Framing
+- Business Interpretation of Data
+- Frontend Visualisation
+- Version Control
+
+---
+
+##  Disclaimer
+
+This project was conducted for academic research purposes.
+
+## 📷 Dashboard Preview
+
+![Dashboard](screenshots/Bet outcome.png)
+![Dashboard](screenshots/Bet page.png)
+![Dashboard](screenshots/Coupons.png)
+![Dashboard](screenshots/Home.png)
+![Dashboard](screenshots/Matches.png)
