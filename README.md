@@ -76,7 +76,7 @@ Understanding this helps drive engagement strategy and monetisation decisions.
 
 Master’s Dissertation  
 Sports Analytics & Data Strategy  
-University of Nottingham  
+University of Northampton  
 
 ---
 
@@ -84,6 +84,9 @@ University of Nottingham
 
 - Data Cleaning & Structuring
 - Survey Data Analysis
+- Multiple Regression
+- Correlation Analysis
+- Data Visualization
 - Insight Generation
 - Stakeholder Framing
 - Business Interpretation of Data
