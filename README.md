@@ -1,6 +1,6 @@
 # VARBET: Data Analysis of VAR Impact on Fan Experience and Betting Behaviour
 
-##  Project Overview
+## Project Overview
 
 This project was developed as part of my Master's Dissertation.
 
@@ -15,7 +15,7 @@ The study combines survey data analysis, statistical evaluation, and interactive
 
 ---
 
-##  Business Problem
+## Business Problem
 
 The introduction of VAR has changed the dynamics of professional football.
 
@@ -30,7 +30,7 @@ Understanding this helps drive engagement strategy and monetisation decisions.
 
 ---
 
-##  Methodology
+## Methodology
 
 1. Designed structured survey questionnaire
 2. Collected multi-variable fan perception data
@@ -43,7 +43,7 @@ Understanding this helps drive engagement strategy and monetisation decisions.
 
 ---
 
-##  Key Insights
+## Key Insights
 
 - Younger fans show higher tolerance for VAR delays.
 - Perceived fairness improved, but enjoyment slightly decreased.
@@ -52,7 +52,7 @@ Understanding this helps drive engagement strategy and monetisation decisions.
 
 ---
 
-##  Tools & Technologies
+## Tools & Technologies
 
 - Excel (Data Cleaning & Analysis)
 - Tableau (Data Visualisation)
@@ -62,7 +62,7 @@ Understanding this helps drive engagement strategy and monetisation decisions.
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
 - `/Survey datasets` → Raw and processed data
 - `index.html` → Web demo interface
@@ -72,7 +72,7 @@ Understanding this helps drive engagement strategy and monetisation decisions.
 
 ---
 
-##  Academic Context
+## Academic Context
 
 Master’s Dissertation  
 Sports Analytics & Data Strategy  
@@ -80,7 +80,7 @@ University of Nottingham
 
 ---
 
-##  Skills Demonstrated
+## Skills Demonstrated
 
 - Data Cleaning & Structuring
 - Survey Data Analysis
@@ -92,11 +92,11 @@ University of Nottingham
 
 ---
 
-##  Disclaimer
+## Disclaimer
 
 This project was conducted for academic research purposes.
 
-## 📷 Dashboard Preview
+## Dashboard Preview
 
 ![Dashboard](Screenshots/Home.png)
 ![Dashboard](Screenshots/Matches.png)
