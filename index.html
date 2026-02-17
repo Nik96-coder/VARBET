@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div id="usernameDisplay"></div>
+        <div id="userPoints" style="color: white; font-size: 16px;"></div> <!-- Points will be displayed here -->
+        <div>
+            <a href="javascript:void(0);" onclick="showSection('home')">Home</a>
+            <a href="javascript:void(0);" onclick="showSection('matches')">View Matches</a>
+            <a href="javascript:void(0);" onclick="showSection('coupons')">Coupons</a>
+            <a href="javascript:void(0);" id="loginLink" onclick="showLogin()">Login</a>
+            <button id="signOutBtn" onclick="signOut()" style="display: none;">Sign Out</button>
+        </div>
+    </div>
+  
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Welcome to the Betting Platform</h1>
+        <p>Place your bets and win exciting rewards!</p>
+    </section>
+
+    <!-- Matches Section -->
+    <section id="matches" class="section">
+        <h2>Upcoming Matches</h2>
+        <div id="matchList"></div>
+        <a href="javascript:void(0);" onclick="showSection('bettingOptions')">Place a Bet</a>
+    </section>
+
+    <!-- Betting Options Section -->
+    <section id="bettingOptions" class="section">
+        <h2>Betting Options</h2>
+        <div id="bettingOptionsContent"></div>
+        <button onclick="showSection('matches')">Back to Matches</button>
+    </section>
+
+    <!-- Coupons Section -->
+    <section id="coupons" class="section">
+        <h2>Available Coupons</h2>
+        <div id="couponsList"></div>
+        <button onclick="showSection('home')">Back to Home</button>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="section" style="display:none;">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required />
+            <input type="password" id="password" placeholder="Password" required />
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="javascript:void(0);" onclick="showRegister()">Register here</a></p>
+    </section>
+
+    <!-- Register Section -->
+    <section id="register" class="section" style="display:none;">
+        <h2>Register</h2>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="Username" required />
+            <input type="password" id="newPassword" placeholder="Password" required />
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="javascript:void(0);" onclick="showLogin()">Login here</a></p>
+    </section>
+
+    <footer>
+        <p>Betting Platform 2025 &copy; All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
