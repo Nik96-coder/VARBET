@@ -98,8 +98,8 @@ This project was conducted for academic research purposes.
 
 ## 📷 Dashboard Preview
 
-![Dashboard](Screenshots/Betoutcome.png)
-![Dashboard](Screenshots/Betpage.png)
-![Dashboard](Screenshots/Coupons.png)
 ![Dashboard](Screenshots/Home.png)
 ![Dashboard](Screenshots/Matches.png)
+![Dashboard](Screenshots/Betpage.png)
+![Dashboard](Screenshots/Betoutcome.png)
+![Dashboard](Screenshots/Coupons.png)
